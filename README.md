@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='web102_prework\web102gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='web102_prework\assets\deity_tarot.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap
@@ -34,7 +34,7 @@ GIF created with LiceCap
 
 ## Notes
 
-Challenge number 7 was hard me especially because I do not have clear understanding of destructuring.
+Challenges: Challenge number 7 was hard me especially because I do not have clear understanding of destructuring.
 
 
 ## License
