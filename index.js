@@ -88,8 +88,11 @@ raisedCard.innerHTML=`
 <p>$${totalAmountRaised.toLocaleString()}</p>
 `
 // grab number of games card and set its inner HTML
-const gamesCard = document.getElementById("num-games");
-
+const gameCardNum = document.getElementById("num-games");
+const totalNumGames = GAMES_JSON.length;
+gameCardNum.innerHTML = `
+    <p>${totalNumGames}</p>
+`;
 
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
@@ -172,6 +175,7 @@ descriptionContainer.append(newDom)
  * Skills used: spread operator, destructuring, template literals, sort 
  */
 
+
 const firstGameContainer = document.getElementById("first-game");
 const secondGameContainer = document.getElementById("second-game");
 
@@ -179,8 +183,24 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
 
-// use destructuring and the spread operator to grab the first and second games
 
+function newGameCard(game){
+    const gameCard = document.createElement('div');
+
+    gameCard.innerHTML = `
+        
+        <h2>${game.name}</h2>
+        
+    `;
+    return gameCard;  
+}
+
+// use destructuring and the spread operator to grab the first and second games
+const [firstGame, secondGame, ...remaining]= sortedGames;
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+const topPledge = newGameCard(firstGame);
+firstGameContainer.appendChild(topPledge);
 
 // do the same for the runner up item
+const runner = newGameCard(secondGame);
+secondGameContainer.appendChild(runner);
