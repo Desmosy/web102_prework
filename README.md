@@ -23,7 +23,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='/absolute/path/to/web102_prework/assets/web102gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](https://jumpshare.com/s/rp3lXRrRfZ9aVd3KhfDd)
+
 
 
 <!-- Replace this with whatever GIF tool you used! -->
