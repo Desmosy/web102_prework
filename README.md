@@ -4,7 +4,7 @@ Submitted by: Koshish Shrestha
 
 GFund is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 8 hours spent in total
+Time spent: 3 hours spent in total
 
 ## Required Features
 
@@ -32,10 +32,6 @@ GIF created with LiceCap
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Challenges: Challenge number 7 was hard me especially because I do not have clear understanding of destructuring.
 
 
 ## License
