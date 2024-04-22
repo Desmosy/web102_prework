@@ -6,6 +6,7 @@ GFund is a website for the company Sea Monster Crowdfunding that displays inform
 
 Time spent: 3 hours spent in total
 
+
 ## Required Features
 
 The following **required** functionality is completed:
